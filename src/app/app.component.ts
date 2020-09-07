@@ -1,4 +1,4 @@
-import { Component, VERSION } from '@angular/core';
+import { Component, VERSION, Output } from '@angular/core';
 
 @Component({
   selector: 'my-app',
@@ -7,4 +7,6 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular ' + VERSION.major;
+  empName = "Santhi Reddy";
+  company:string;
 }
